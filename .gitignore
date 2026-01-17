@@ -1,0 +1,45 @@
+# Environment
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Data (large files, privacy)
+data/raw/
+data/labeled/
+!data/raw/.gitkeep
+!data/labeled/.gitkeep
+*.png
+*.jpg
+*.jpeg
+
+# Model Weights (large files)
+weights/*.onnx
+weights/*.h5
+weights/*.pth
+weights/*.pt
+!weights/.gitkeep
+
+# Logs
+*.log
+wandb/
+runs/
+
+# Temporary
+*.tmp
+*.temp
+training.lock
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb

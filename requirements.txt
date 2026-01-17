@@ -1,0 +1,30 @@
+# Dependencies for Interpark CAPTCHA OCR
+
+# Deep Learning
+tensorflow>=2.10.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ONNX
+onnxruntime>=1.14.0
+tf2onnx>=1.14.0
+
+# OCR
+easyocr>=1.7.0
+
+# Image Processing
+numpy>=1.24.0
+Pillow>=9.5.0
+opencv-python>=4.7.0
+
+# Browser Automation
+selenium>=4.8.0
+undetected-chromedriver>=3.4.0
+pyautogui>=0.9.54
+pyperclip>=1.8.2
+
+# Data
+pandas>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
